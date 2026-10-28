@@ -1,0 +1,66 @@
+
+[
+  {
+    "question": "What is the company dress code?",
+    "expected_policy": "Dress Code Policy",
+    "results": {
+      "rules_based": {
+        "answer": "Employees are expected to dress in business casual attire.",
+        "policy": "Dress Code Policy",
+        "response_time": null,
+        "total_tokens": 0,
+        "unsupported": false
+      },
+      "llm_no_vector": {
+        "answer": "Employees are expected to dress in business casual attire.",
+        "policy": "Dress Code Policy",
+        "response_time": 2.894,
+        "input_tokens": 3556,
+        "output_tokens": 20,
+        "total_tokens": 3576,
+        "unsupported": false
+      },
+      "llm_with_vector": {
+        "answer": "Employees are expected to dress in business casual attire.",
+        "policy": "Dress Code Policy",
+        "response_time": 2.023,
+        "input_tokens": 165,
+        "output_tokens": 19,
+        "total_tokens": 184,
+        "unsupported": false
+      }
+    }
+  },
+  {
+    "question": "Does the company provide free flights to Japan?",
+    "expected_policy": null,
+    "results": {
+      "rules_based": {
+        "answer": "No relevant policy found.",
+        "policy": null,
+        "response_time": null,
+        "total_tokens": 0,
+        "unsupported": false
+      },
+      "llm_no_vector": {
+        "answer": "The company policies do not mention providing free flights to Japan.",
+        "policy": null,
+        "response_time": 1.559,
+        "input_tokens": 3558,
+        "output_tokens": 20,
+        "total_tokens": 3578,
+        "unsupported": false
+      },
+      "llm_with_vector": {
+        "answer": "The information is unavailable.",
+        "policy": null,
+        "response_time": 2.613,
+        "input_tokens": 168,
+        "output_tokens": 13,
+        "total_tokens": 181,
+        "unsupported": false
+      }
+    }
+  }
+]
+
