@@ -1,4 +1,3 @@
-
 [
   {
     "question": "What is the company dress code?",
@@ -7,9 +6,11 @@
       "rules_based": {
         "answer": "Employees are expected to dress in business casual attire.",
         "policy": "Dress Code Policy",
-        "response_time": null,
+        "response_time": 0.000619,
         "total_tokens": 0,
-        "unsupported": false
+        "unsupported": false,
+        "input_tokens": 0,
+        "output_tokens": 0
       },
       "llm_no_vector": {
         "answer": "Employees are expected to dress in business casual attire.",
@@ -38,9 +39,11 @@
       "rules_based": {
         "answer": "No relevant policy found.",
         "policy": null,
-        "response_time": null,
+        "response_time": 0.000421,
         "total_tokens": 0,
-        "unsupported": false
+        "unsupported": false,
+        "input_tokens": 0,
+        "output_tokens": 0
       },
       "llm_no_vector": {
         "answer": "The company policies do not mention providing free flights to Japan.",
@@ -63,4 +66,3 @@
     }
   }
 ]
-
